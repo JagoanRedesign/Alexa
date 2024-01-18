@@ -4,26 +4,31 @@
     "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
     "keywords": ["music", "voice chat", "telegram"],
     "repository": "https://github.com/JagoanRedesign/Alexa",
-    "stack": "container",
+    
     "env": {
         "API_ID": {
             "description": "Your App ID",
+            value": "",
             "required": true
         },
         "API_HASH": {
             "description": "Your App Hash",
+            value": "",
             "required": true
         },
         "BOT_TOKEN": {
             "description": "Put Bot Token Of Your Bot",
+            value": "",
             "required": true
         },
         "BOT_USERNAME": {
           "description": "PUT UR USERNAME HERE without @",
+            value": "",
           "required": true
         },
         "STRING_SESSION": {
             "description": "enter pyrogram string ",
+            value": "",
             "required": true
         }
     },
@@ -31,8 +36,12 @@
     {
       "url": "heroku/python"
     },
+        {
+              "url": "heroku/nodejs"
+          },
     {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
     }
-  ]
+  ],
+    "stack": "container"
 }
