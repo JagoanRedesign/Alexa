@@ -8,27 +8,27 @@
     "env": {
         "API_ID": {
             "description": "Your App ID",
-            value": "",
+            "value": "",
             "required": true
         },
         "API_HASH": {
             "description": "Your App Hash",
-            value": "",
+            "value": "",
             "required": true
         },
         "BOT_TOKEN": {
             "description": "Put Bot Token Of Your Bot",
-            value": "",
+            "value": "",
             "required": true
         },
         "BOT_USERNAME": {
           "description": "PUT UR USERNAME HERE without @",
-            value": "",
+            "value": "",
           "required": true
         },
         "STRING_SESSION": {
             "description": "enter pyrogram string ",
-            value": "",
+            "value": "",
             "required": true
         }
     },
