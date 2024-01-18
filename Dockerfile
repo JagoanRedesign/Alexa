@@ -7,5 +7,5 @@ RUN apt-get install -y nodejs
 RUN npm i -g npm
 COPY . /Alexa/
 WORKDIR /Alexa/
-RUN pip3 install -U -r Installer
+RUN pip3 install --no-cache-dir -U -r Installer
 CMD python3 -m modules
